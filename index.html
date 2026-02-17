@@ -1,109 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-     <!-- header start -->
-       <header class="header">
-      <div class="container">
-        <nav class="header__nav">
-          <div class="header__logo">
-            <img class="image" src="./img/header logo .png" alt=""  width: 150;
-height: 71;/>
-          </div>
-
-          <ul class="header__lists">
-            <li>
-              <a href="">ОБЩЕСТВО</a>
-            </li>
-            <li>
-              <a href="">ТЕХНОЛОГИИ</a>
-            </li>
-            <li>
-              <a href="">ЭКОНОМИКА</a>
-            </li>
-            <li>
-              <a href="">ПОЛИТИКА</a>
-            </li>
-            <li>
-              <a href="">СПОРТ</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-        <div class="header__picture">
-            <img src="./img/header picture.png" alt="">
-        </div>
-
-     <!-- header end -->
-
-
-     <!-- main start -->
-      <main class="main">
-        <div class="main__content">
-              <div class="main__content__desc">
-              <div class="main__desc">
-                <img src="./img/item1.png" alt="">
-                <div class="main__desc__item">
-                  <h4>A Midwestern capital is marching for racial justice — and getting</h4>
-                  <p class="text-red-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit nunc auctor quis amet, est mattis vitae. Urna, bibendum lacinia pellentesque tellus sit sit phasellus. Neque, volutpat, aliquet vitae sed nibh massa sed purus venenatis.</p>
-                </div>
-              </div>
-              <div class="main__desc">
-                <img src="./img/item2.png" alt="">
-                <div class="main__desc__item">
-                  <h4>Zambian president pardons gay couple sentenced to 15 years</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit nunc auctor quis amet, est mattis vitae. Urna, bibendum lacinia pellentesque tellus sit sit phasellus. Neque, volutpat, aliquet vitae sed nibh massa sed purus venenatis.</p>
-                </div>
-              </div>
-              <div class="main__desc">
-                <img src="./img/item3.png" alt="">
-                <div class="main__desc__item">
-                  <h4>Colin Powell calls Trump a liar, says he skirts the Constitution...</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit nunc auctor quis amet, est mattis vitae. Urna, bibendum lacinia pellentesque tellus sit sit phasellus. Neque, volutpat, aliquet vitae sed nibh massa sed purus venenatis</p>
-                </div>
-              </div>
-              <div class="main__desc">
-                <img src="./img/item4.png" alt="">
-                <div class="main__desc__item">
-                  <h4>Is working from home wearing you out? Do this to avoid burnout</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit nunc auctor quis amet, est mattis vitae. Urna, bibendum lacinia pellentesque tellus sit sit phasellus. Neque, volutpat, aliquet vitae sed nibh massa sed purus venenatis</p>
-                </div>
-              </div>
-          </div>
-       </div>
-    
-        
-     </main>
-
-     <!-- main end -->
-
-     <div class="text">
-        <h3>Главные новости</h3>
-     </div>
-
-      <!-- <div class="main__content2">
-          <div class="main__content__blog">
-            <img src="./img/picture.png" alt="">
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TNW — The News Web</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body class="bg-gray-50 text-gray-800 font-sans">
+        <!-- HEADER -->
+        <header class="bg-white shadow-sm">
+          <div
+            class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4"
+          >
+            <div class="flex items-center space-x-2">
+              <img src="./img/header logo .png" alt="TNW Logo" class="w-14" />
+              <!-- <span class="text-2xl font-bold text-red-600">THE NEWS WEB</span> -->
             </div>
-            <div class="main__content__text">
-            <h3>Обзор молодежных планшетов: лучшие устройства за свои деньги</h3>
-            <p>Серия Huawei MediaPad давно известна покупателям - это одни из самых продаваемых Android-планшетов на рынке. Однако в компании решили провести ребрендинг, и модели MediaPad стали частью флагманской линейки Huawei MatePad, получили передовые функции, но при этом сохранили доступную цену.
- В июне в России появятся два новых планшета: компактный MatePad T8 с диагональю 8 дюймов и MatePad с экраном 10,4 дюйма. Последний уже доступен по предзаказу с завтрашнего числа на сайте бренда. Модель ориентирована на молодых специалистов, студентов, семьи с детьми, которым нужно отличное устройство по привлекательной цене. Давайте разберемся, почему Huawei MatePad является одним из лучших предложений на рынке. Huawei MatePad выполнен из стекловолокна и поликарбоната: для прочности корпус имеет алюминиевую рамку. При диагонали экрана в 10,4 дюйма планшет весит всего 450 г и его толщина составляет 7,35 мм. Для сравнения Huawei MediaPad M5 Lite весил 475 г, его диагональ была меньше - 10,1 дюйма, а толщина составляла 7,7 мм...</p>
-                </div>
-            </div> -->
+            <nav>
+              <ul
+                class="flex flex-wrap gap-6 text-gray-700 font-medium text-sm"
+              >
+                <li><a href="#" class="hover:text-red-600">ОБЩЕСТВО</a></li>
+                <li><a href="#" class="hover:text-red-600">ТЕХНОЛОГИИ</a></li>
+                <li><a href="#" class="hover:text-red-600">ЭКОНОМИКА</a></li>
+                <li><a href="#" class="hover:text-red-600">ПОЛИТИКА</a></li>
+                <li><a href="#" class="hover:text-red-600">СПОРТ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Header IMAGE -->
+        <section class="max-w-6xl mx-auto py-10 px-4 flex justify-center">
+          <img
+            src="./img/header picture.png"
+            alt="Top illustration"
+            class="w-full rounded-lg shadow-sm"
+          />
+        </section>
+
+        <!-- Main start -->
+        <!-- <section
+          class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-4 text-white"
+        >
+          <div class="bg-red-600 p-5 rounded-md shadow-md">
+            <h3 class="font-semibold text-lg mb-2">
+              A Midwestern capital is marching for racial justice — and getting
+            </h3>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              sagittis...
+            </p>
+          </div>
+          <div class="bg-purple-700 p-5 rounded-md shadow-md">
+            <h3 class="font-semibold text-lg mb-2">
+              Zambian president pardons gay couple sentenced to 15 years
+            </h3>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              euismod...
+            </p>
+          </div>
+          <div class="bg-blue-900 p-5 rounded-md shadow-md">
+            <h3 class="font-semibold text-lg mb-2">
+              Colin Powell calls Trump a liar, says he skirts the Constitution
+            </h3>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              luctus...
+            </p>
+          </div>
+          <div class="bg-green-600 p-5 rounded-md shadow-md">
+            <h3 class="font-semibold text-lg mb-2">
+              Is working from home wearing you out? Do this to avoid burnout
+            </h3>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse...
+            </p>
+          </div>
+        </section> -->
+
+<section class="container mx-auto mt-10 px-6">
+  <div class="grid grid-cols-1 lg:grid-cols-4 ">
+
+    <!-- 1-ustun -->
+    <div class="flex flex-col bg-red-600 text-white">
+      <img src="./img/item1.png" alt="" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg mb-2">A Midwestern capital is marching for racial justice — and getting</h3>
+        <p class="text-sm leading-snug">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis sit nunc auctor quis amet, est mattis vitae. Urna, bibendum lacinia pellentesque tellus sit sit phasellus. Neque, volutpat, aliquet vitae sed nibh massa sed purus venenatis.
+        </p>
+      </div>
+    </div>
+
+    <!-- 2-ustun -->
+    <div class="flex flex-col-reverse bg-purple-700 text-white">
+      <img src="./img/item2.png" alt="" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg mb-2">Zambian president pardons gay couple sentenced to 15 years</h3>
+        <p class="text-sm leading-snug">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id scelerisque egestas scelerisque pellentesque leo. Urna, amet feugiat pulvinar dictumst at dictum lorem. Consectetur vel pharetra, purus egestas in suspendisse. Cras fringilla massa quis.
+        </p>
+      </div>
+    </div>
+
+    <!-- 3-ustun -->
+    <div class="flex flex-col bg-indigo-700 text-white">
+      <img src="./img/item3.png" alt="" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg mb-2">Colin Powell calls Trump a liar, says he skirts the Constitution...</h3>
+        <p class="text-sm leading-snug">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat pulvinar lectus scelerisque sit aliquet nam. Ultricies in eget tellus adipiscing faucibus. Cursus amet, scelerisque aenean aliquet et id faucibus. Risus varius congue magna sit.
+        </p>
+      </div>
+    </div>
+
+    <!-- 4-ustun -->
+    <div class="flex flex-col-reverse bg-teal-700 text-white">
+      <img src="./img/item4.png" alt="" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg mb-2">Is working from home wearing you out? Do this to avoid burnout</h3>
+        <p class="text-sm leading-snug">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id natoque eu at nisi. Mattis sit sed sociis purus. Aliquam ligula urna at ultrices egestas elementum blandit. Sit ut congue lacus et commodo ornare ac. Congue mi morbi non placerat nullam.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
     
+
+
+
+            <main class="container mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-center mb-6">Главные новости</h2>
         
+        <section
+          class="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-8 px-4 py-12"
+        >
+        
+          <div class="md:w-1/2 w-full">
+            <img
+              src="./img/picture.png"
+              alt="Tablet image"
+              class="w-full rounded-lg shadow-lg"
+            />
+          </div>
 
+          
+          <div class="md:w-1/2 w-full">
+            <h3 class="text-2xl font-semibold mb-4 leading-snug">
+              Обзор молодежных планшетов: лучшие устройства за свои деньги
+            </h3>
+            <p class="text-gray-700 leading-relaxed text-justify text-sm">
+              Серия Huawei MediaPad давно известна покупателям — это одни из
+              самых продаваемых Android-планшетов на рынке. Однако в компании
+              решили провести ребрендинг, и модели MediaPad стали частью
+              флагманской линейки Huawei MatePad, получили передовые функции, но
+              при этом сохранили доступную цену.
+              <br /><br />
+              В июне в России появятся два новых планшета: компактный MatePad T8
+              с диагональю 8 дюймов и MatePad с экраном 10,4 дюйма. Последний
+              уже доступен по предзаказу с завтрашнего числа на сайте бренда.
+              Модель ориентирована на молодых специалистов, студентов, семьи с
+              детьми, которым нужно отличное устройство по привлекательной цене.
+              Marjona Dilshodovna, [Пн 27.10.25 12:08]
+              <br /><br />
+              Huawei MatePad выполнен из стекловолокна и поликарбоната: для
+              прочности корпус имеет алюминиевую рамку. При диагонали экрана в
+              10,4 дюйма планшет весит всего 450 г и его толщина составляет 7,35
+              мм. Для сравнения Huawei MediaPad M5 Lite весил 475 г, его
+              диагональ была меньше — 10,1 дюйма, а толщина составляла 7,7 мм...
+            </p>
+          </div>
+        </section>
+        <!-- Main end -->
 
-     <!-- footer start -->
+        <!-- Footer start-->
+        <footer class="bg-gray-900  mt-12 py-6">
+          <div
+            class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4"
+          >
+            
+            <div class="flex items-center space-x-3">
+              <img
+                src="./img/header logo .png"
+                alt="TNW Logo"
+                class="w-24 h-auto"
+              />
+              <!-- <span class="text-xl font-bold">THE NEWS WEB</span> -->
+            </div>
 
-     <!-- footer end -->
-    
-</body>
+            <ul
+              class="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-300"
+            >
+              <li><a href="#" class="hover:text-red">СПЕЦПРОЕКТ</a></li>
+              <li><a href="#" class="hover:text-white">ОБЩЕСТВО</a></li>
+              <li><a href="#" class="hover:text-white">ТЕХНОЛОГИИ</a></li>
+              <li><a href="#" class="hover:text-white">ЭКОНОМИКА</a></li>
+              <li><a href="#" class="hover:text-white">ПОЛИТИКА</a></li>
+              <li><a href="#" class="hover:text-white">СПОРТ</a></li>
+            </ul>
+          </div>
+        </footer>
+        <!-- Footer end -->
+      </body>
+    </html>
+  </body>
 </html>
