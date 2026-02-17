@@ -1,0 +1,173 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header__logo img{
+width: 150;
+height: 71;
+top: 24px;
+left: 145px;
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__lists{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.header__lists li a{
+color: #3A3838;
+font-family: Roboto;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+}
+
+.header__lists li a:hover{
+    color: black;
+   border-bottom: 2px solid lightskyblue;
+}
+
+.header__picture img{
+ width: 1110;
+height: 272;
+top: 107px;
+left: 145px;
+opacity: 1;
+}
+
+.main{
+    margin: 70px 0;
+}
+
+
+.main__content__desc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__desc{
+    background: #B71C1C;
+}
+
+.main__desc:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #6A1B9A;
+}
+
+
+.main__desc:nth-child(3){
+background-color: #303F9F;
+}
+
+.main__desc:nth-child(4){
+     display: flex;
+    flex-direction: column-reverse;
+    background-color: #00695C;
+}
+
+
+
+
+.main__desc__item h4{
+    margin: 15px;
+    color: #FFFFFF;
+ font-family: Roboto;
+font-weight: 700;
+font-size: 19px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.main__desc__item p{
+    margin: 15px;
+ color: #EBEBEB;
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.text h3{
+    text-align: center;
+    color: #3A3838;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+width: 180;
+height: 26;
+top: 834px;
+left: 610px;
+opacity: 1;
+}
+
+.main__content__text h3{
+    color: #3A3838;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.main__content__text p{
+    color: #686868;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.main__content2{
+   width: 585px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #EDEDED;
+
+}
+
+.main__content__blog{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding: 20px;
+}
+
+.main__content__text{
+  
+    row-gap: 10px;
+}
+
+
+ */
